@@ -1,3 +1,5 @@
+
+
 def palindromo(palabra):
     palabra=palabra.replace(' ','')
     palabra=palabra.lower()
