@@ -6,19 +6,28 @@
 # imprimir_mensaje()
 # imprimir_mensaje()
 
-def converzacion(mensaje):
-    print('Hola')
-    print('como estas?')
-    print(mensaje)
-    print('Adios')
+# def converzacion(mensaje):
+#     print('Hola')
+#     print('como estas?')
+#     print(mensaje)
+#     print('Adios')
 
 
-opcion=input("Elige una opcion (1, 2, 3)")
+# opcion=input("Elige una opcion (1, 2, 3)")
 
-if opcion=='1':
-    converzacion('Elegiste la opcion 1')
-elif opcion=='2':
-    converzacion('Elegiste la opcion 2')
-elif opcion=='3':
-    converzacion('Elegiste la opcion 1')
-else: print('Elige opcion correcta')
+# if opcion=='1':
+#     converzacion('Elegiste la opcion 1')
+# elif opcion=='2':
+#     converzacion('Elegiste la opcion 2')
+# elif opcion=='3':
+#     converzacion('Elegiste la opcion 1')
+# else: print('Elige opcion correcta')
+
+
+def suma(a,b):
+    print("Se suman dos numeros: ")
+    resultado=a+b
+    return resultado
+
+sumatoria=suma(1,2)
+print(sumatoria)
