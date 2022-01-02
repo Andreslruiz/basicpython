@@ -4,6 +4,8 @@ def run():
         'llave 1':1,
         'llave 2':2,
         'llave 3':3,
+        'llave 4':3,
+        
     }
     # print(mi_diccionario['llave 1'])
     # print(mi_diccionario['llave 2'])
